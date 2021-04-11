@@ -1,0 +1,28 @@
+2021-04-01 11:00:56,176 INFO [api_mp.py(__init__:10)] - 正在初始化自媒体登录url:http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2021-04-01 11:00:56,176 INFO [api_mp.py(__init__:12)] - 正在初始化自媒体发布文章url:http://ttapi.research.itcast.cn/mp/v1_0/articles
+2021-04-01 11:00:56,176 INFO [api_mp.py(api_mp_login:22)] - 正在调用自媒体登录接口，请求数据：{'mobile': '13812345678', 'code': '246811'}
+2021-04-01 11:00:56,291 INFO [tool.py(common_token:9)] - 正在提取token，提取到的信息为：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MTcyODIyNjEsInVzZXJfaWQiOjEzNjM0MTUxNTA3MTQ5NDU1MzYsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.g4efuDkK7J8oA57KAZCiXBUiVtYDY3td549oXyPWAq8
+2021-04-01 11:00:56,291 INFO [tool.py(common_token:12)] - 正在向headers添加token，添加后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bear eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MTcyODIyNjEsInVzZXJfaWQiOjEzNjM0MTUxNTA3MTQ5NDU1MzYsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.g4efuDkK7J8oA57KAZCiXBUiVtYDY3td549oXyPWAq8'}
+2021-04-01 11:00:56,291 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法。。。。。。
+2021-04-01 11:00:56,299 INFO [api_mp.py(api_mp_article:34)] - 正在调用自媒体发布文章登录接口，请求数据：{'title': 'test-api-123', 'content': 'hahahahaha', 'channel_id': '7', 'cover': {'type': 0, 'images': []}}
+2021-04-01 11:08:07,673 INFO [api_mp.py(__init__:10)] - 正在初始化自媒体登录url:http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2021-04-01 11:08:07,673 INFO [api_mp.py(__init__:12)] - 正在初始化自媒体发布文章url:http://ttapi.research.itcast.cn/mp/v1_0/articles
+2021-04-01 11:08:07,673 INFO [api_mp.py(api_mp_login:22)] - 正在调用自媒体登录接口，请求数据：{'mobile': '13812345678', 'code': '246811'}
+2021-04-01 11:08:07,783 ERROR [test01_mp.py(test01_mp_login:25)] - 'NoneType' object has no attribute 'get'
+2021-04-01 11:08:07,959 INFO [api_mp.py(api_mp_article:34)] - 正在调用自媒体发布文章登录接口，请求数据：{'title': 'test-api-123', 'content': 'hahahahaha', 'channel_id': '7', 'cover': {'type': 0, 'images': []}}
+2021-04-01 11:08:18,797 INFO [api_mp.py(__init__:10)] - 正在初始化自媒体登录url:http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2021-04-01 11:08:18,797 INFO [api_mp.py(__init__:12)] - 正在初始化自媒体发布文章url:http://ttapi.research.itcast.cn/mp/v1_0/articles
+2021-04-01 11:08:18,797 INFO [api_mp.py(api_mp_login:22)] - 正在调用自媒体登录接口，请求数据：{'mobile': '13812345678', 'code': '246811'}
+2021-04-01 11:08:18,890 INFO [tool.py(common_token:9)] - 正在提取token，提取到的信息为：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MTcyODI3MDQsInVzZXJfaWQiOjEzNjM0MTUxNTA3MTQ5NDU1MzYsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.NAcqkhacSfckeN6mT7r1jhWo_DrHkp92NgjqsTh4Jio
+2021-04-01 11:08:18,890 INFO [tool.py(common_token:12)] - 正在向headers添加token，添加后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MTcyODI3MDQsInVzZXJfaWQiOjEzNjM0MTUxNTA3MTQ5NDU1MzYsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.NAcqkhacSfckeN6mT7r1jhWo_DrHkp92NgjqsTh4Jio'}
+2021-04-01 11:08:18,890 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法。。。。。。
+2021-04-01 11:08:18,890 INFO [api_mp.py(api_mp_article:34)] - 正在调用自媒体发布文章登录接口，请求数据：{'title': 'test-api-123', 'content': 'hahahahaha', 'channel_id': '7', 'cover': {'type': 0, 'images': []}}
+2021-04-01 11:08:18,984 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法。。。。。。
+2021-04-01 11:32:18,580 INFO [api_mp.py(__init__:10)] - 正在初始化自媒体登录url:http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2021-04-01 11:32:18,580 INFO [api_mp.py(__init__:12)] - 正在初始化自媒体发布文章url:http://ttapi.research.itcast.cn/mp/v1_0/articles
+2021-04-01 11:32:18,580 INFO [api_mp.py(api_mp_login:22)] - 正在调用自媒体登录接口，请求数据：{'mobile': '13812345678', 'code': '246811'}
+2021-04-01 11:32:18,672 INFO [tool.py(common_token:9)] - 正在提取token，提取到的信息为：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MTcyODQxNDMsInVzZXJfaWQiOjEzNjM0MTUxNTA3MTQ5NDU1MzYsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.IFkc2ZZFjl3ILm_DDTkp9HZkVHvbWOOsYqCOBcBndfM
+2021-04-01 11:32:18,672 INFO [tool.py(common_token:12)] - 正在向headers添加token，添加后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MTcyODQxNDMsInVzZXJfaWQiOjEzNjM0MTUxNTA3MTQ5NDU1MzYsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.IFkc2ZZFjl3ILm_DDTkp9HZkVHvbWOOsYqCOBcBndfM'}
+2021-04-01 11:32:18,672 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法。。。。。。
+2021-04-01 11:32:18,692 INFO [api_mp.py(api_mp_article:34)] - 正在调用自媒体发布文章登录接口，请求数据：{'title': 'text_api_001', 'content': '天气晴朗', 'channel_id': '7', 'cover': {'type': 0, 'images': []}}
+2021-04-01 11:32:18,985 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法。。。。。。

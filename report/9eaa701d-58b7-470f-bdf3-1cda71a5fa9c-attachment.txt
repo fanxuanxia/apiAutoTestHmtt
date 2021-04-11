@@ -1,0 +1,7 @@
+[32mINFO    [0m root:api_mis.py:9 正在初始化后台管理系统，登录url:http://ttapi.research.itcast.cn/mis/v1_0/authorizations
+[32mINFO    [0m root:api_mis.py:11 正在初始化后台管理系统 查询文章url:http://ttapi.research.itcast.cn/mis/v1_0/articles
+[32mINFO    [0m root:api_mis.py:13 正在初始化后台管理系统 审核文章url:http://ttapi.research.itcast.cn/mis/v1_0/articles
+[32mINFO    [0m root:api_mis.py:17 正在调用后台管理系统 登录接口，请求数据：{'account': 'testid', 'password': 'testpwd123'}，请求信息头：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MTc0NjE4MTAsInVzZXJfaWQiOjEzNjM0MTUxNTA3MTQ5NDU1MzYsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.k9xtaKUCY-wRHGpq-LzM1ZDmSpoMiSO708H2tG2nDak'}
+[32mINFO    [0m root:tool.py:9 正在提取token，提取到的信息为：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MTc0NjE4MDksImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.juFlCpPcYUIJgf9HFHS4Rl4IEymlxb5sFS7rwgBXWuo
+[32mINFO    [0m root:tool.py:12 正在向headers添加token，添加后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MTc0NjE4MDksImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.juFlCpPcYUIJgf9HFHS4Rl4IEymlxb5sFS7rwgBXWuo'}
+[32mINFO    [0m root:tool.py:19 正在调用公共断言方法。。。。。。

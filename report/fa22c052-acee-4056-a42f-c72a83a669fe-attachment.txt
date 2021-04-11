@@ -1,0 +1,2 @@
+[32mINFO    [0m root:tool.py:19 正在调用公共断言方法。。。。。。
+[1m[31mERROR   [0m root:test02_mis.py:23 Expecting value: line 1 column 1 (char 0)

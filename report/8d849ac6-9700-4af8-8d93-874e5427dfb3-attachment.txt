@@ -1,0 +1,2 @@
+[32mINFO    [0m root:api_mis.py:22 正在调用后台管理系统 查询文章接口，请求数据：{'title': 'text_api_001', 'channel': '数据库'}，请求信息头：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MTc0NjEyNjEsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.LUJ6zJmMJhPtmp1K12QDObJYaAjtv5VqL9APZ3VSFYU'}
+[32mINFO    [0m root:tool.py:19 正在调用公共断言方法。。。。。。

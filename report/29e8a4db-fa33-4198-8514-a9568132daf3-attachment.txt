@@ -1,0 +1,2 @@
+[32mINFO    [0m root:api_mp.py:34 正在调用自媒体发布文章登录接口，请求数据：{'title': 'test-api-123', 'content': 'hahahahaha', 'channel_id': '7', 'cover': {'type': 0, 'images': []}}
+[32mINFO    [0m root:tool.py:19 正在调用公共断言方法。。。。。。
